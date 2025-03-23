@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 # Load API Key from environment variables
 load_dotenv()
-openai.api_key = os.getenv("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")
+openai.api_key = os.getenv("--")
 
 def generate_classroom_activity(topic):
     """Generates an engaging classroom activity using OpenAI's GPT model."""
